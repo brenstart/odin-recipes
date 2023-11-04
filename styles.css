@@ -16,20 +16,20 @@ h3 {
 }
 
 .headings.title{
-  text-align: center;
+  display: inline-block;
   font-size: 50px;
   font-family: "monospace", sans-serif;
+  background-color: lightyellow;
+  border: 2px solid yellowgreen;
+  /* text-align: center; */ /* added this to the parent div.recipe-card instead */
+  margin: 0 0 10px 0;
+  padding: 0 20px;
 }
 
 .headings{
   color: darkblue;
 }
 
-
-
-/*.even-list{
-  
-}*/
 div img {
   width: 650px;
   display: block;
@@ -37,6 +37,7 @@ div img {
 div.recipe-card{
   width: 650px;
   margin: 0 auto;
+  text-align: center; /* placed this here instead. Doesn't work in .headings.title above because inline-block instead of block? */
 }
 
 .description {
