@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 ul li a{
   background-color: aqua;
 }
@@ -20,9 +24,9 @@ h3 {
   font-size: 50px;
   font-family: "monospace", sans-serif;
   background-color: lightyellow;
-  border: 2px solid yellowgreen;
+  border: 8px solid darkcyan;
   /* text-align: center; */ /* added this to the parent div.recipe-card instead */
-  margin: 0 0 10px 0;
+  margin: 0 0 15px 0;
   padding: 0 20px;
 }
 
@@ -33,6 +37,7 @@ h3 {
 div img {
   width: 650px;
   display: block;
+  border: 8px solid darkcyan;
 }
 div.recipe-card{
   width: 650px;
@@ -42,17 +47,17 @@ div.recipe-card{
 
 .description {
   background-color: lightyellow;
-  border: 2px solid yellowgreen;
+  border: 8px solid darkcyan;
   padding: 10px;
   text-align: center;
-  margin: 0 0 10px 0;
+  margin: 0 0 15px 0;
 }
 
 .ingredients {
   background-color: lightyellow;
-  border: 2px solid yellowgreen;
+  border: 8px solid darkcyan;
   text-align: center;
-  margin: 0 0 10px 0;
+  margin: 0 0 15px 0;
 }
 
 .odd-list{
@@ -80,9 +85,9 @@ div.recipe-card{
 
 .steps {
   background-color: lightyellow;
-  border: 2px solid yellowgreen;
+  border: 8px solid darkcyan;
   text-align: center;
-  margin: 0 0 10px 0;
+  margin: 0 0 15px 0;
 }
 
 .steps ol{
