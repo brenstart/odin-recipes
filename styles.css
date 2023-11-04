@@ -3,7 +3,7 @@ ul li a{
 }
 
 body {
-  background-color: yellow;
+  background-color: lightblue;
 }
 
 ul li {
@@ -30,10 +30,29 @@ h3 {
   /* list-style: none; */ /*remove bullet points*/
 }
 
-.even-list{
+/*.even-list{
   
+}*/
+div img {
+  width: 650px;
+  display: block;
 }
-
 div.recipe-card{
   width: 650px;
+  margin: 0 auto;
+}
+
+.description {
+  background-color: lightyellow;
+  border: 2px solid yellowgreen;
+  padding: 10px;
+  text-align: center;
+}
+
+.ingredients {
+  background-color: lightyellow;
+}
+
+.steps {
+  background-color: lightyellow;
 }
