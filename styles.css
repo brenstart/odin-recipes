@@ -25,10 +25,7 @@ h3 {
   color: darkblue;
 }
 
-.odd-list{
-  background-color: lightgreen;
-  /* list-style: none; */ /*remove bullet points*/
-}
+
 
 /*.even-list{
   
@@ -47,12 +44,47 @@ div.recipe-card{
   border: 2px solid yellowgreen;
   padding: 10px;
   text-align: center;
+  margin: 0 0 10px 0;
 }
 
 .ingredients {
   background-color: lightyellow;
+  border: 2px solid yellowgreen;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.odd-list{
+  background-color: lightgreen;
+  list-style: none; /*remove bullet points*/
+  /* margin-bottom: 5px; */
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+.even-list{
+  background-color: darkcyan;
+  color: white;
+  list-style: none;
+  /* margin-bottom: 5px; */
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+.ingredients ul{
+  display: block;
+  text-align: left;
+  padding: 30px;
 }
 
 .steps {
   background-color: lightyellow;
+  border: 2px solid yellowgreen;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.steps ol{
+  text-align: left;
+  padding: 40px;
 }
