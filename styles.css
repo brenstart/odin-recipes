@@ -110,3 +110,17 @@ div.recipe-card{
   text-align: left;
   padding: 40px;
 }
+
+div.back-button{
+  margin: 30px auto;
+}
+
+div.back-button a{
+  text-decoration: none;
+  background-color: darkcyan;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 15px;
+  
+}
